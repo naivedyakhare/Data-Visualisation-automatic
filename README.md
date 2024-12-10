@@ -22,11 +22,11 @@ Visualize data using Natural Language.
 2. (Optional) Create a Virutal Environment using conda or PIP
    - To create the environment
      ```
-     conda create -p venv/
+     conda create -p venv/ python=3.12
      ```
    - To activate the Environment
      ```
-     conda activate venv/
+     conda activate venv/ 
      ```
 3. Install the required packages in the requirements.txt
    ```
