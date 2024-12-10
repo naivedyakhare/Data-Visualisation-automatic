@@ -2,3 +2,4 @@ openai
 pyreadstat
 plotly
 pandas
+streamlit
