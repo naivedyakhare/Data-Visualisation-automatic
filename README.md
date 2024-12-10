@@ -4,21 +4,28 @@ Visualize data using Natural Language.
 
 ## Installation Guide
 
-1. Clone the repository using the following command
+⚠️ You need to have python installed on your system
 
-   ```
-   git clone https://github.com/naivedyakhare/Data-Visualisation-automatic
-   ```
+1. Getting the files ready
 
-   Now open the install folder in text editor or IDE of your choice.
+   - If you do not have git installed, simply go to the repository and download the zip file and then extract it wherever you want.
+   - If you have git installed, clone the repository using the following command
 
-2. (Optional) Create a Virutal Environment
-   ```
-   conda create -p venv/
-   ```
-   ```
-   conda activate venv/
-   ```
+     ```
+     git clone https://github.com/naivedyakhare/Data-Visualisation-automatic
+     ```
+
+   Now open the downloaded/extracted folder in text editor or IDE of your choice.
+
+2. (Optional) Create a Virutal Environment using conda or PIP
+   - To create the environment
+     ```
+     conda create -p venv/
+     ```
+   - To activate the Environment
+     ```
+     conda activate venv/
+     ```
 3. Install the required packages in the requirements.txt
    ```
    pip install -r requirements.txt
