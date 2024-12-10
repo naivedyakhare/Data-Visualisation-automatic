@@ -39,7 +39,7 @@ Follow these instructions:
     3. Do not use triple backticks or any syntax highlighting; just return plain text code.
     4. Use pyreadstat to read sas7bdat files.
     5. Use Plotly to create interactive graphs.
-    6. Separate the categorical variable by different colours, ALWAYS.
+    6. Separate the categorical variables/Group by variables by different colours, ALWAYS. Like use green, red, blue, etc
     7. Also, save the graph in the local storage.
 
 '''
@@ -103,8 +103,8 @@ def generator(api_key, user_query, dataset_path, dataset_name):
 # Sidebar for API Key, File Inputs, and Dataset Name
 st.sidebar.header("Configuration")
 api_key = st.sidebar.text_input("Enter your OpenAI API Key", type="password")
-dataset_path = st.sidebar.text_input("Enter the File Path", value ="")
-dataset_name = st.sidebar.text_input("Enter the Dataset Name", value="bmi.xpt")
+dataset_path = st.sidebar.text_input("Enter the File Path", placeholder="Type . if no path")
+dataset_name = st.sidebar.text_input("Enter the Dataset Name", value="bmi.xpt", placeholder="eg. dm.sas7bdat")
 
 # Query Input
 user_query = st.text_area("Enter your query for visualization (e.g., 'Generate a bar chart of sales over time'): ")
