@@ -68,4 +68,4 @@ Assuming the user has entered all the values correct
 2. Then, it extracts the `metadata` (Column Names and their corresponding labels) from the dataset (for XPT and SAS7BDAT).
 3. Then, it create a `prompt` that consists of the User's query, `metadata` and additional information.
 4. The prompt that is created is sent to the OpenAI and it returns a Python code.
-5. After the code is generated, it is directly run using the `exec` command, which (if errorless) is either displayed below the screen, or redirects to another webpage with an interactive graph.
+5. After the code is generated, it is directly run using the `exec` command, which (if errorless) is either displayed below the button, or redirects to another webpage with an interactive graph.
