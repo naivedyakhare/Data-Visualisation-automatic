@@ -3,3 +3,4 @@ pyreadstat
 plotly
 pandas
 streamlit
+matplotlib
