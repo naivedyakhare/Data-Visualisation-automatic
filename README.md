@@ -8,7 +8,7 @@ Visualize data using Natural Language.
 
 1. Getting the files ready
 
-   - If you do not have git installed, simply go to the repository and download the zip file and then extract it wherever you want.
+   - If you do not have git installed, go to the repository and download the zip file and then extract it wherever you want.
 
    - If you have git installed, clone the repository using the following command
 
@@ -31,7 +31,7 @@ Visualize data using Natural Language.
    ```
    pip install -r requirements.txt
    ```
-4. After installation, simply run the following command
+4. After installation, run the following command
    ```
    streamlit run app.py
    ```
