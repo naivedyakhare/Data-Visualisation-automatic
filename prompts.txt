@@ -1,0 +1,3 @@
+Provide average change from baseline by the treatment
+Provide average change from baseline by the treatment on each visit
+Provide average change from baseline by the treatment on each visit and sort by ascending visit number
