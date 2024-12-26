@@ -195,9 +195,6 @@ if user_query:
             if not generated_code:
                 st.error("Failed to generate code. Check the logs or refine your query.")
             else:
-                # Display the generated code
-                # st.code(generated_code, language="python")
-
                 # Save and execute the generated code
                 with open("generated_code.py", "w", encoding="utf-8") as f:
                     f.write(generated_code)

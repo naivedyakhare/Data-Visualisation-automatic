@@ -51,10 +51,12 @@ Visualize data using Natural Language.
    ```
 3. Once the application is up and running, enter all the required details
 
-   - OpenAI API key (required)
-   - Dataset Path: If the dataset is in root folder type `.` (Do not leave empty)
-   - Dataset Name (required): Name of the dataset including the extension. (Eg. DM.sas7bdat or bmi.xpt)
-   - Visualization Query (required): Query for which you want to generate the visualisation for.
+   - OpenAI API key {required} {string / input}
+   - Dataset Path (required) {string / input}: If the dataset is in root folder type `.` (Do not leave empty)
+     - Once you enter the correct path, click on the Read files.
+     - Once you click on read files, all the dataset files (Xport format) will be visible to be selected below the button in a select tag.
+   - Dataset Name (required) {string / select}: Select the dataset you want to use (Eg. DM.sas7bdat or bmi.xpt)
+   - Visualization Query (required) {string / input}: Query for which you want to generate the visualisation for.
 
 4. After entering all the details, click `Generatge Visualization` button.
 5. The visualization will be generated below the button. Since this uses OpenAI (LLM) to generate graphs, it is prone to error and might sometimes not work.
