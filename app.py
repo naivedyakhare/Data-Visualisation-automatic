@@ -174,7 +174,8 @@ if read_files and dataset_path:
     if os.path.isdir(dataset_path):
         files = os.listdir(dataset_path)
         st.session_state.files_xpt = list(filter(lambda file: file.split(".")[-1] == "xpt", files))
-
+    else:
+        st.sidebar.error("Incorrect Path!")
 dataset_name_selectbox = st.sidebar.selectbox("File Name", options=st.session_state.files_xpt)
 output_file_name = st.sidebar.text_input("Enter output file Name", value="graph")
 
